@@ -21,8 +21,16 @@ left: 30%;
 top: 30%;
 }
 
-button {
+.answer-btn {
 font-size: 30px;
 display: block;
 width: 800px;
+border-radius: 10px;
+margin: 10px;
 }
+
+.score {
+    font-size: 30px;
+
+}
+
