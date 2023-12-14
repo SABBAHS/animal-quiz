@@ -1,0 +1,28 @@
+
+
+body {
+background-image: url('elephants.avif');
+
+}
+
+h1 {
+font-size: 50px;
+position: absolute;
+left: 40%;
+top: 10%;
+}
+
+h2 {
+font-size: 30px;
+}
+.quiz {
+position: absolute;
+left: 30%;
+top: 30%;
+}
+
+button {
+font-size: 30px;
+display: block;
+width: 800px;
+}
