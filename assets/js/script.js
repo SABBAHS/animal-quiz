@@ -28,3 +28,6 @@ function generateQuestionCards() {
 const quizContainer = document.getElementById("quizcontainer")
 const questionText = document.getElementById("questiontext")
 const options = document.getElementById("options")
+
+//display the question in the header H2 element
+questionText.innerHTML = Questions[currentQuestion].question
