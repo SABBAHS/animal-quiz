@@ -40,3 +40,10 @@ Questions[currentQuestion].incorrect_answers.forEach((value, index) => {
   button.addEventListener("click", checkanswer(value)) 
   options.appendChild(button)
 });
+//display the correct option. Create button
+const button = document.createElement("button")
+button.textContent = Questions[currentQuestion].correct_answer
+button.addEventListener("click", checkanswer(Questions[currentQuestion].correct_answer)) 
+button.classList.add('answer-btn')
+options.appendChild(button)
+}
