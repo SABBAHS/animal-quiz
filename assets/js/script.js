@@ -31,3 +31,12 @@ const options = document.getElementById("options")
 
 //display the question in the header H2 element
 questionText.innerHTML = Questions[currentQuestion].question
+
+//loop through each options(incorrect_answers) to display it to the user. Name that value, and create button. Append to child (button).
+Questions[currentQuestion].incorrect_answers.forEach((value, index) => {
+  const button = document.createElement("button")
+  button.textContent = value
+  button.classList.add('answer-btn')
+  button.addEventListener("click", checkanswer(value)) 
+  options.appendChild(button)
+});
