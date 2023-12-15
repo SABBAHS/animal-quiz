@@ -1,7 +1,11 @@
 
 
 body {
-background-image: url('elephants.avif');
+background-image: url('/assets/images/background-image.jpg');
+
+}
+
+.answer-btn {
 
 }
 
