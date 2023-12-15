@@ -54,3 +54,5 @@ function checkanswer(selectedoption) {
 
 //The start of the quiz
 startQuiz();
+
+
