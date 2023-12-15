@@ -51,3 +51,6 @@ options.appendChild(button)
 function checkanswer(selectedoption) {
 
 }
+
+//The start of the quiz
+startQuiz();
