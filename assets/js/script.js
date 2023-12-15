@@ -17,7 +17,14 @@ async function startQuiz() {
   .catch((err) => console.log(err));
 
   console.log('que', Questions);
-  //after fetching starting createring the question cards
+  //after fetching starting creating the question cards
   generateQuestionCards();
 }
+//using this I can go through each question in the question array
+var currentQuestion = 0 
 
+function generateQuestionCards() {
+
+const quizContainer = document.getElementById("quizcontainer")
+const questionText = document.getElementById("questiontext")
+const options = document.getElementById("options")
