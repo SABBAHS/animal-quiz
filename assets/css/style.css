@@ -53,3 +53,11 @@ margin: 10px;
 
 }
 
+.incorrectcolour{
+    border-color: rgb(11, 124, 11);
+    background-color: rgba(0, 213, 61, 0.45);
+}
+.correctcolour{
+    border-color: red;
+    background-color: rgba(255, 18, 60, 0.47);
+}
