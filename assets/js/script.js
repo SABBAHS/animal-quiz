@@ -49,7 +49,14 @@ options.appendChild(button)
 }
 
 function checkanswer(selectedoption) {
+}
 
+
+//next question button
+
+const nextQuestion = document.getElementById("nextQuestion");
+nextQuestion.addEventListener("click", function ()) {
+currentQuestion + 1;
 }
 
 //The start of the quiz
