@@ -21,6 +21,18 @@ width: 100px;
 background-color: hsla(46, 100%, 64%, 0.44)
 }
 
+.next-btn {
+bottom: 10%;
+left: 48%;
+position: absolute;
+border-radius: 10px;
+margin: 10px;
+font-size: 25px;
+width: 150px;
+background-color: hsla(46, 100%, 64%, 0.44)  
+
+}
+
 h1 {
 font-size: 50px;
 position: absolute;

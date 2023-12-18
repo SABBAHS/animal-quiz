@@ -52,12 +52,20 @@ function checkanswer(selectedoption) {
 }
 
 
-//next question button
+if checkanswer.correct_answer {
+  element.classList.add(".correctcolour")
+} else 
+  element.classList.add(".incorrectcolour") {
+}
+
+
+//next question button 
 
 const nextQuestion = document.getElementById("nextQuestion");
 nextQuestion.addEventListener("click", function ()) {
 currentQuestion + 1;
 }
+
 
 //The start of the quiz
 startQuiz();
