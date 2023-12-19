@@ -31,43 +31,36 @@ const options = document.getElementById("options")
 
 //display the question in the header H2 element
 questionText.innerHTML = Questions[currentQuestion].question
-
+options.innerHTML = ""
 //loop through each options(incorrect_answers) to display it to the user. Name that value, and create button. Append to child (button).
 Questions[currentQuestion].incorrect_answers.forEach((value, index) => {
   const button = document.createElement("button")
-  button.textContent = value
+  button.innerHTML = value
   button.classList.add('answer-btn')
-  button.addEventListener("click", checkanswer(value)) 
+  button.addEventListener("click", (e) => checkanswer(e)) 
   options.appendChild(button)
 });
 //display the correct option by accessing the [currentquestion] array. Create button.
 const button = document.createElement("button")
-button.textContent = Questions[currentQuestion].correct_answer
-button.addEventListener("click", checkanswer(Questions[currentQuestion].correct_answer)) 
+button.innerHTML = Questions[currentQuestion].correct_answer
+button.addEventListener("click", (e) => checkanswer(e)) 
 button.classList.add('answer-btn')
 options.appendChild(button)
 }
 
-function checkanswer(selectedoption) {
+function checkanswer(e) {
+  console.log(e);
+ const selectedanswer = e.target.innerText
+ const correctanswer = Questions[currentQuestion].correct_answer
+ console.log('select', selectedanswer);
+ console.log('corre', correctanswer);
+
+}
 }
 
 
-if checkanswer.correct_answer {
-  element.classList.add(".correctcolour")
-} else 
-  element.classList.add(".incorrectcolour") {
-}
 
 
-//next question button 
 
-const nextQuestion = document.getElementById("nextQuestion");
-nextQuestion.addEventListener("click", function ()) {
-currentQuestion + 1;
-}
-
-
-//The start of the quiz
-startQuiz();
 
 
