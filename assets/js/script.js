@@ -77,12 +77,18 @@ nextQuestion.addEventListener("click", function (){
   }
   }) 
 
-
 //The start of the quiz
 startQuiz();
 
+//score 
 
+let score = 0;
+function correctAnswers() {
+    if (selectedanswer === correctanswer) {
+        score++;
+    }
 
+}
 
 
 
