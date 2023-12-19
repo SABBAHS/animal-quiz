@@ -65,6 +65,21 @@ function checkanswer(e) {
 }
 }
 
+//next question button 
+
+const nextQuestion = document.getElementById("nextQuestion");
+nextQuestion.addEventListener("click", function (){
+  currentQuestion++; 
+  if (currentQuestion < Questions.length) {
+    generateQuestionCards()
+  } else {
+    alert("message")
+  }
+  }) 
+
+
+//The start of the quiz
+startQuiz();
 
 
 
