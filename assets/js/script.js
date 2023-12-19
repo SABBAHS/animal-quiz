@@ -54,7 +54,14 @@ function checkanswer(e) {
  const correctanswer = Questions[currentQuestion].correct_answer
  console.log('select', selectedanswer);
  console.log('corre', correctanswer);
-
+ if (selectedanswer == correctanswer) {
+  e.target.classList.add("correctcolour")
+  } else {
+   e.target.classList.add("incorrectcolour")
+  }
+ const buttonoptions = document.getElementsByClassName("answer-btn")
+ for (i=0; i<buttonoptions.length; i++) {
+   buttonoptions[i].disabled = true
 }
 }
 
