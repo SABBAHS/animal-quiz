@@ -4,6 +4,7 @@
 */
  
 let Questions;
+let score = 0;
 
 async function startQuiz() {
 
@@ -56,6 +57,8 @@ function checkanswer(e) {
  console.log('corre', correctanswer);
  if (selectedanswer == correctanswer) {
   e.target.classList.add("correctcolour")
+  score++;
+
   } else {
    e.target.classList.add("incorrectcolour")
   }
@@ -73,22 +76,13 @@ nextQuestion.addEventListener("click", function (){
   if (currentQuestion < Questions.length) {
     generateQuestionCards()
   } else {
-    alert("message")
-  }
-  }) 
+const scoredpoints = document.getElementById("scoredpoints")
+scoredpoints.innerHTML = "<p class='scoredpoints'>" + score + "</p>";
+
+const scoremessage = document.getElementById("scoredmessage") 
+scoremessage.classList.remove("hide")
+}
+}) 
 
 //The start of the quiz
-startQuiz();
-
-//score 
-
-let score = 0;
-function correctAnswers() {
-    if (selectedanswer === correctanswer) {
-        score++;
-    }
-
-}
-
-
-
+startQuiz(); 

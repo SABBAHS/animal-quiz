@@ -74,10 +74,26 @@ margin: 10px;
     background-color: rgba(0, 213, 61, 0.45);
 }
 
-div .hide message {
+.message  {
     background-color: black;
     height: 400px;
     width: 100%;
     position: absolute;
     bottom: 30%;
+    color: orange;
+    text-align: center;
+    font-size: 40px;
+}
+
+.hide {
+    display: none;
+}
+
+.scoredpoints {
+    color: red;
+    font-size: 30px;
+}
+
+#scorebutton {
+    display: none;
 }
