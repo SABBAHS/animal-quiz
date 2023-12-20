@@ -9,7 +9,6 @@
 <body>
 <h1>Animal Quiz</h1>
 <div class="quiz">
-<div class="score">0/10</div>
 <div id="quizcontainer">
     <h2 id="questiontext"></h2>
     <div id="options">    
@@ -18,7 +17,7 @@
 </div>
 <div class="hide message" id="scoredmessage">
 <p>End of Quiz!</p>
-<p>scored points</p>
+<p>You scored:<span id="yourscore">0</span></p>
 <h2 id="scoredpoints"></h2>
 </div>
 <button id="start" class="start-btn">start</button>
@@ -28,6 +27,6 @@
 <button id="scorebutton" onclick="showhidemessage()">show message</button>
 </div>
 
-<script src="assets/js/script.js"></script>
+<script src="/assets/js/script.js"></script>
 </body>
 </html>

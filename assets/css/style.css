@@ -18,7 +18,8 @@ border-radius: 10px;
 margin: 10px;
 font-size: 25px;
 width: 100px;
-background-color: hsla(46, 100%, 64%, 0.44)
+background-color: hsla(46, 100%, 64%, 0.44);
+cursor: pointer;
 }
 
 .next-btn {
@@ -29,7 +30,8 @@ border-radius: 10px;
 margin: 10px;
 font-size: 25px;
 width: 150px;
-background-color: hsla(46, 100%, 64%, 0.44)  
+background-color: hsla(46, 100%, 64%, 0.44); 
+cursor: pointer;
 
 }
 
@@ -58,6 +60,7 @@ display: block;
 width: 800px;
 border-radius: 10px;
 margin: 10px;
+cursor: pointer;
 }
 
 .score {

@@ -12,7 +12,7 @@ async function startQuiz() {
   await fetch("https://opentdb.com/api.php?amount=10&category=27&difficulty=medium&type=multiple")
   //parse the response from the server
   .then((response) => response.json().then((data) => ({data: data})))
-  //after parsing the response store the questions in the Question variable(which is an array)
+  //after parsing the response, store the questions in the Question variable(which is an array)
   .then((res)=> {Questions = res.data.results})
   //if anything goes wrong with getting the questions from api display the error in console.
   .catch((err) => console.log(err));
@@ -49,15 +49,18 @@ button.classList.add('answer-btn')
 options.appendChild(button)
 }
 
+//Highlighting correct / incorrect answers 
 function checkanswer(e) {
   console.log(e);
  const selectedanswer = e.target.innerText
  const correctanswer = Questions[currentQuestion].correct_answer
  console.log('select', selectedanswer);
- console.log('corre', correctanswer);
+ console.log('corre', correctanswer); 
  if (selectedanswer == correctanswer) {
   e.target.classList.add("correctcolour")
   score++;
+  const yourscore = document.getElementById('yourscore'); 
+  yourscore.textContent = score;
 
   } else {
    e.target.classList.add("incorrectcolour")
@@ -86,3 +89,13 @@ scoremessage.classList.remove("hide")
 
 //The start of the quiz
 startQuiz(); 
+
+//button click sound. Code from here: https://dev.to/shantanu_jana/how-to-play-sound-on-button-click-in-javascript-3m48
+const audio = new Audio("https://www.fesliyanstudios.com/play-mp3/6");
+const button = document.querySelectorAll("button");
+
+button.forEach(button => {
+  button.addEventListener("click", () => {
+    audio.play();
+  });
+});
