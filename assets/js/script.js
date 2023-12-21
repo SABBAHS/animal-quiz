@@ -99,3 +99,9 @@ button.forEach(button => {
     audio.play();
   });
 });
+
+//retstart button. Code from here: https://teamtreehouse.com/community/any-one-know-how-to-make-a-restart-button
+document.querySelector('.restart-btn').addEventListener('click', function(){
+  window.location.reload();
+  return false;
+});
