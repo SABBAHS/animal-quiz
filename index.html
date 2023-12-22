@@ -1,36 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>animal-quiz</title>
-</head>
-<body>
-<h1>Animal Quiz</h1>
-<div class="quiz">
-<div id="quizcontainer">
-    <h2 id="questiontext"></h2>
-    <div id="options">    
+  </head>
+  <body>
+    <h1>Animal Quiz</h1>
+    <div class="quiz">
+      <div id="quizcontainer">
+        <h2 id="questiontext"></h2>
+        <div id="options"></div>
+      </div>
     </div>
-</div>
-</div>
-<div class="hide message" id="scoredmessage">
-<p>End of Quiz!</p>
-<p>You scored:<span id="yourscore">0</span></p>
-
-<h2 id="scoredpoints"></h2>
-
-<button id="restart" class="restart-btn">start</button>
-</div>
-
-<div>
-<button id="nextQuestion" class="next-btn">Next Question</button>
-
-<!--<button id="scorebutton" onclick="showhidemessage()">show message</button>-->
-
-</div>
-
-<script src="/assets/js/script.js"></script>
-</body>
+    <div class="hide message" id="scoredmessage">
+      <p>End of Quiz!</p>
+      <p>You scored: <span id="yourscore">0</span></p>
+      <h2 id="scoredpoints"></h2>
+      <button id="restart" class="restart-btn">Play Again</button>
+    </div>
+    <div>
+      <button id="nextQuestion" class="next-btn">Next Question</button>
+      <!--<button id="scorebutton" onclick="showhidemessage()">show message</button>-->
+    </div>
+    <script src="/assets/js/script.js"></script>
+  </body>
 </html>

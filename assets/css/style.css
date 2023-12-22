@@ -1,296 +1,279 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@1000&family=Unbounded:wght@500&display=swap');
 
 body {
-background-image: url('/assets/images/background-image.jpg');
-background-repeat: no-repeat;
+	background-image: url('/assets/images/background-image.jpg');
+	background-repeat: no-repeat;
 }
 
 #quizcontainer {
-background:rgba(255, 162, 0, 0.90);
-position: relative;
-top: 20%;
-display: inline-block;
-place-items: center;
-right: 20%;
-width: 1000px;
+	background: rgba(255, 162, 0, 0.90);
+	position: relative;
+	top: 20%;
+	display: inline-block;
+	place-items: center;
+	right: 20%;
+	width: 1000px;
 }
+
 .restart-btn {
-margin: 10px;
-font-size: 25px;
-width: 100px;
-background-color: orange;
-color: black;
-cursor: pointer;
+	margin: 10px;
+	font-size: 25px;
+	width: 110px;
+	background-color: orange;
+	color: black;
+	cursor: pointer;
+	border-radius: 10px;
+	font-family: 'Unbounded', sans-serif;
 }
 
 .next-btn {
-bottom: 15%;
-left: 45%;
-position: absolute;
-border-radius: 10px;
-margin: 10px;
-font-size: 25px;
-width: 150px;
-background-color: hsla(46, 100%, 64%, 0.80); 
-cursor: pointer;
-font-family: 'Unbounded', sans-serif;
-
+	bottom: 15%;
+	left: 45%;
+	position: absolute;
+	border-radius: 10px;
+	margin: 10px;
+	font-size: 25px;
+	width: 150px;
+	background-color: hsla(46, 100%, 64%, 0.80);
+	cursor: pointer;
+	font-family: 'Unbounded', sans-serif;
 }
 
 h1 {
-font-size: 50px;
-position: absolute;
-left: 42%;
-top: 10%;
-font-family: 'Cairo Play', sans-serif;
+	font-size: 50px;
+	position: absolute;
+	left: 42%;
+	top: 10%;
+	font-family: 'Cairo Play', sans-serif;
 }
 
 h2 {
-text-align: center;
-font-size: 30px;
-font-family: 'Unbounded', sans-serif;
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Unbounded', sans-serif;
 }
 
 .quiz {
-position: absolute;
-left: 30%;
-top: 30%;
+	position: absolute;
+	left: 30%;
+	top: 30%;
 }
 
 .answer-btn {
-font-size: 30px;
-display: block;
-width: 800px;
-border-radius: 10px;
-margin: 10px;
-cursor: pointer;
-font-family: 'Unbounded', sans-serif;
+	font-size: 30px;
+	display: block;
+	width: 800px;
+	border-radius: 10px;
+	margin: 10px;
+	cursor: pointer;
+	font-family: 'Unbounded', sans-serif;
 }
 
 #options {
-padding-left: 10%;
+	padding-left: 10%;
 }
 
 .score {
-    font-size: 30px;
-
+	font-size: 30px;
 }
 
-.incorrectcolour{
-    border-color: red;
-    background-color: rgba(255, 18, 60, 0.47);
-}
-.correctcolour{
-    border-color: rgb(11, 124, 11);
-    background-color: rgba(0, 213, 61, 0.45);
+.incorrectcolour {
+	border-color: red;
+	background-color: rgba(255, 18, 60, 0.47);
 }
 
-.message  {
-    background-color: black;
-    height: 400px;
-    width: 100%;
-    position: absolute;
-    bottom: 30%;
-    color: orange;
-    text-align: center;
-    font-size: 40px;
-}
-
-.hide {
-    display: none;
-}
-
-.scoredpoints {
-    color: red;
-    font-size: 30px;
-}
-
-#scorebutton {
-    display: none;
-}
-
-@media only screen and (max-width: 1300px) and (min-width: 1030px) {
-    #quizcontainer {
-    width: 800px;
-    } 
-    .answer-btn {
-    font-size: 20px;
-    width: 600px;
-    }
-
-    h2 {
-    font-size: 25px;
-    }
-
-    .next-btn {
-    bottom: 25%;
-    left: 40%;
-    font-size: 18px;
-    }
-    h1 {
-    left: 40%;
-    }
-}
-
-  @media only screen and (max-width: 1030px) and (min-width: 768px) {
-
-    #quizcontainer {
-        width: 600px;
-        } 
-        .answer-btn {
-        font-size: 20px;
-        width: 400px;
-        }
-    
-        h2 {
-        font-size: 25px;
-        }
-    
-        .next-btn {
-        bottom: 10%;
-        left: 40%;
-        font-size: 18px;
-        }
-        h1 {
-        left: 35%;
-        }
-        #options {
-            padding-left: 15%;
-  }
-
-  }
-
-  @media only screen and (max-width: 768px) and (min-width: 540px) {
-
-    #quizcontainer {
-        width: 600px;
-        } 
-        .answer-btn {
-        font-size: 20px;
-        width: 400px;
-        }
-    
-        h2 {
-        font-size: 25px;
-        font-family: font-family: 'Unbounded', sans-serif;
-        }
-        .next-btn {
-        bottom: 35%;
-        left: 40%;
-        font-size: 20px;
-        padding: 4px;
-        }
-        h1 {
-        font-family: 'Cairo Play', sans-serif;
-        left: 35%;
-        }
-        #options {
-            padding-left: 15%;
-  }
-
-  }
-
-  @media only screen and (max-width: 540px) and (min-width: 430px) {
-
-   .next-btn {
-        bottom: 10%;
-        left: 50%;
-  }
-
-  #quizcontainer{
-    top: 40px;
-    margin-left: 5%;
-  }
-
-  h1 {
-left: 40%;
-  }
-}
-
-/*mobile iphone 15 */
-@media only screen and (max-width: 430px) and (min-width: 280px) {
-
-h1 {
-    left: 15%;
-    font-family: 'Cairo Play', sans-serif;
-}
-.answer-btn {
-    font-size: 19px;
-    width: 300px;
-    right: 40%;
-}
-
-#quizcontainer {
-        background: none;
-        width: 100px;
-    right: 100%;
-}
-
-h2 {
-font-size: 20px;
-font-family: 'Unbounded', sans-serif;
-width: 300px;
-padding-left: 10px;
-text-align: center;
-padding-bottom: 10px;
-}
-
-.next-btn {
-    bottom: 10%;
-    left: 25%;
-    font-size: 18px;
-}
-
-}
-
-@media only screen and (max-width: 280px) and (min-width: 200px) {
-
-    h1 {
-        font-size: 80px;
-        line-height: 60px;
-        margin-top: 120px;
-        margin-left: 100px;
-        position: relative;
-}
-
-h2 {
-    font-size: 30px;
-    font-family: 'Unbounded', sans-serif;
-    width: 350px;
-    margin-left: 25px;
-}
-}
-
-#quizcontainer {
-    top: 50%;
-    display: block;
-    place-items: center;
-    width: 300px;
-}
-
-.quiz {
-    left: 420px;
-    top: 70%;
-}
-
-.next-btn {
-    left: 90%;
-    font-size: 30px;
-    width: 200px;
-    bottom: 30%;
-    font-family: 'Unbounded', sans-serif;
-}
-
-.answer-btn {
-    width: 350px;
-    font-size: 30px;
-    font-family: 'Unbounded', sans-serif;
-
+.correctcolour {
+	border-color: rgb(11, 124, 11);
+	background-color: rgba(0, 213, 61, 0.45);
 }
 
 .message {
-    width: 90%;
+	background-color: black;
+	height: 400px;
+	width: 100%;
+	position: absolute;
+	bottom: 30%;
+	color: orange;
+	text-align: center;
+	font-size: 40px;
 }
 
+.hide {
+	display: none;
+}
+
+.scoredpoints {
+	color: red;
+	font-size: 30px;
+}
+
+#scorebutton {
+	display: none;
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 1030px) {
+	#quizcontainer {
+		width: 800px;
+	}
+
+	.answer-btn {
+		font-size: 20px;
+		width: 600px;
+	}
+
+	h2 {
+		font-size: 25px;
+	}
+
+	.next-btn {
+		bottom: 25%;
+		left: 40%;
+		font-size: 18px;
+	}
+
+	h1 {
+		left: 40%;
+	}
+
+	.message {
+		top: 120px;
+	}
+}
+
+@media only screen and (max-width: 1030px) and (min-width: 768px) {
+
+	#quizcontainer {
+		width: 600px;
+	}
+
+	.answer-btn {
+		font-size: 20px;
+		width: 400px;
+	}
+
+	h2 {
+		font-size: 25px;
+	}
+
+	.next-btn {
+		bottom: 13%;
+		left: 40%;
+		font-size: 18px;
+	}
+
+	h1 {
+		left: 35%;
+	}
+
+	#options {
+		padding-left: 15%;
+	}
+
+	.message {
+		top: 145px;
+		margin: 0 2%;
+	}
+}
+
+@media only screen and (max-width: 768px) and (min-width: 540px) {
+
+	#quizcontainer {
+		width: 600px;
+	}
+
+	.answer-btn {
+		font-size: 20px;
+		width: 400px;
+	}
+
+	h2 {
+		font-size: 25px;
+		font-family: 'Unbounded', sans-serif;
+	}
+
+	.next-btn {
+		bottom: 35%;
+		left: 40%;
+		font-size: 20px;
+		padding: 4px;
+	}
+
+	h1 {
+		font-family: 'Cairo Play', sans-serif;
+		left: 35%;
+	}
+
+	#options {
+		padding-left: 15%;
+	}
+
+	.message {
+		top: 145px;
+	}
+}
+
+@media only screen and (max-width: 540px) and (min-width: 430px) {
+
+	.next-btn {
+		bottom: 10%;
+		left: 50%;
+	}
+
+	#quizcontainer {
+		top: 40px;
+		margin-left: 5%;
+	}
+
+	h1 {
+		left: 40%;
+	}
+
+	.message {
+		left: 120px;
+	}
+}
+  
+
+/*mobile iphone 15 and below */
+@media only screen and (max-width: 430px) and (min-width: 320px) {
+
+	h1 {
+		left: 15%;
+		font-family: 'Cairo Play', sans-serif;
+	}
+
+	.answer-btn {
+		font-size: 19px;
+		width: 300px;
+		right: 40%;
+	}
+
+	#quizcontainer {
+		background: none;
+		width: 100px;
+		right: 100%;
+	}
+
+	h2 {
+		font-size: 20px;
+		font-family: 'Unbounded', sans-serif;
+		width: 300px;
+		padding-left: 10px;
+		text-align: center;
+		padding-bottom: 10px;
+	}
+
+	.next-btn {
+		bottom: 10%;
+		left: 25%;
+		font-size: 18px;
+	}
+
+	.message {
+		width: 90%;
+		margin: 0 2%;
+	}
+}
+
+
+  
