@@ -130,6 +130,8 @@ h2 {
 	}
 
 	h1 {
+		font-family: 'Gasoek One', sans-serif;
+		font-weight: 400;
 		left: 40%;
 	}
 
@@ -160,6 +162,8 @@ h2 {
 	}
 
 	h1 {
+		font-family: 'Gasoek One', sans-serif;
+		font-weight: 400;
 		left: 35%;
 	}
 
@@ -197,7 +201,8 @@ h2 {
 	}
 
 	h1 {
-		font-family: 'Cairo Play', sans-serif;
+		font-family: 'Gasoek One', sans-serif;
+		font-weight: 400;
 		left: 35%;
 	}
 
