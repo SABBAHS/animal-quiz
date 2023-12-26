@@ -86,6 +86,7 @@ nextQuestion.addEventListener("click", function() {
 
         const scoremessage = document.getElementById("scoredmessage");
         scoremessage.classList.remove("hide");
+
     }
 });
 

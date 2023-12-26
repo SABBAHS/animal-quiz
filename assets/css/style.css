@@ -33,6 +33,7 @@
 	cursor: pointer;
 	font-family: 'Unbounded', sans-serif;
 	border: black;
+	color: black;
 }
 
 h1 {
@@ -63,6 +64,7 @@ h2 {
 	border-radius: 10px;
 	border: black;
 	margin: 10px;
+	color: black;
 	cursor: pointer;
 	font-family: 'Unbounded', sans-serif;
 }
@@ -117,6 +119,7 @@ h2 {
 	.answer-btn {
 		font-size: 20px;
 		width: 600px;
+		color: black;
 	}
 
 	h2 {
@@ -127,6 +130,7 @@ h2 {
 		bottom: 25%;
 		left: 40%;
 		font-size: 18px;
+		color: black;
 	}
 
 	h1 {
@@ -149,6 +153,7 @@ h2 {
 	.answer-btn {
 		font-size: 20px;
 		width: 400px;
+		color: black;
 	}
 
 	h2 {
@@ -159,6 +164,7 @@ h2 {
 		bottom: 13%;
 		left: 40%;
 		font-size: 18px;
+		color: black;
 	}
 
 	h1 {
@@ -186,6 +192,7 @@ h2 {
 	.answer-btn {
 		font-size: 20px;
 		width: 400px;
+		color: black;
 	}
 
 	h2 {
@@ -198,6 +205,7 @@ h2 {
 		left: 40%;
 		font-size: 20px;
 		padding: 4px;
+		color: black;
 	}
 
 	h1 {
@@ -220,8 +228,11 @@ h2 {
 	.next-btn {
 		bottom: 10%;
 		left: 50%;
+		color: black;
 	}
-
+.answer-btn {
+	color: black;
+}
 	#quizcontainer {
 		top: 40px;
 		margin-left: 5%;
@@ -232,7 +243,9 @@ h2 {
 	}
 
 	.message {
-		left: 120px;
+	width: 500px;
+    top: 150px;
+    left: 25%;
 	}
 }
   
@@ -272,11 +285,12 @@ h2 {
 		bottom: 6%;
 		left: 25%;
 		font-size: 18px;
+		color: black;
 	}
 
 	.message {
-		width: 90%;
-		margin: 0 2%;
+		width: 370px;
+		left: 35px;
 	}
 }
 
