@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@1000&family=Unbounded:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@1000&family=Gasoek+One&family=Unbounded:wght@500&display=swap');
 
 #quizcontainer {
 	background: rgba(255, 162, 0, 0.90);
@@ -40,8 +40,8 @@ h1 {
 	position: absolute;
 	left: 42%;
 	top: 10%;
-	font-family: 'Cairo Play', sans-serif;
-	font-weight: 1000;
+	font-family: 'Gasoek One', sans-serif;
+	font-weight: 400;
 }
 
 h2 {
@@ -237,8 +237,8 @@ h2 {
 
 	h1 {
 		left: 15%;
-		font-family: 'Cairo Play', sans-serif;
-		font-weight: 1000;
+		font-family: 'Gasoek One', sans-serif;
+		font-weight: 400;
 	}
 
 	.answer-btn {
