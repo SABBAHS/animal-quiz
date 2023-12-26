@@ -239,7 +239,8 @@ h2 {
 	}
 
 	h1 {
-		left: 40%;
+	margin-left: 50px;
+    font-size: 40px;
 	}
 
 	.message {
@@ -254,6 +255,7 @@ h2 {
 @media only screen and (max-width: 430px) and (min-width: 320px) {
 
 	h1 {
+		font-size: 40px;
 		left: 15%;
 		font-family: 'Gasoek One', sans-serif;
 		font-weight: 400;
