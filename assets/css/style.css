@@ -13,9 +13,10 @@
 .restart-btn {
 	margin: 10px;
 	font-size: 25px;
-	width: 110px;
+	width: 140px;
 	background-color: orange;
 	color: black;
+	border: black;
 	cursor: pointer;
 	border-radius: 10px;
 	font-family: 'Unbounded', sans-serif;
@@ -256,7 +257,7 @@ h2 {
 
 	h1 {
 		font-size: 40px;
-		left: 15%;
+		left: 10%;
 		font-family: 'Gasoek One', sans-serif;
 		font-weight: 400;
 	}
@@ -293,6 +294,10 @@ h2 {
 	.message {
 		width: 370px;
 		left: 35px;
+	}
+	.restart-btn {
+		width: 140px;
+		border: black;
 	}
 }
 
