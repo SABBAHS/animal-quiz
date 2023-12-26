@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@1000&family=Unbounded:wght@500&display=swap');
 
-body {
-	background-image: url('assets/images/background-image.jpg');
-	background-repeat: no-repeat;
-}
-
 #quizcontainer {
 	background: rgba(255, 162, 0, 0.90);
 	position: relative;
