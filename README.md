@@ -108,18 +108,21 @@ I've searched for tutorials and added this above relevant code
 # Testing
 
 ## Browsers and Screen sizes
-- I've confirmed that this project looks good on different browsers such as Chrome, Firefox, and Safari.
-- I've confirmed that the pages are all responsive, and look good on large screen sizes (1600px, 1200px), laptop (1200px, 1050px), iPad (768px) and Mobile sizes (430px, 390px, 320px).
-- I've carried out extensive testing on multiple browsers to ensure all key elements such as the heading, images, footer icons, and navigation links are size-appropriate. 
-- I've confirmed text is readable, the images are not stretched and the colour scheme does not clash or cause any issues to the user's ability to smoothly navigate around the web.
-- Here are some of the key areas: using flexbox on the projects page effectively places images evenly as the screen reduces, the services page was rearranged to have only one image stack on top of each text box, and on the contacts page two unnecessary input fields were removed to be more size appropriate for the new screen size. 
-- I've confirmed that the website is easy to navigate for a user, the menu works.
-- I've confirmed that the form and submit button works. The form has required fields that the user is prompted to have filled before sending the form, the mobile field only allows numbers, and the email field prompts the user if an @ is missing.
+- I've confirmed that this project looks good on different browsers such as Chrome, Firefox, and Safari. 
+- I've confirmed that the pages are all responsive, and look good multiple large screen sizes especially starting from 1700px to the smallest being 360px. 
+- I've gone through majority of the screens on devtools, and even further on [responsivetesttool](https://responsivetesttool.com/).
+- I've confirmed text, especially for questions and answers is readable, and the colour scheme does not clash or cause any issues to the user's ability to smoothly navigate around the page.
+- I've confirmed that the website is easy to navigate for a user and accurately displays a score at the end of the quiz, and responds quickly indicating the right or wrong answer. The quiz also offers to start again at the end which inturn reshuffles the questions.
   
 ## Bugs encountered 
   
-
-
+- There were quotation marks around questions, I fixed this by changing the ‘textcontent’ to ‘innerHTML’. 
+- Fetching API, several attempts to get it right. Took pieces of code from websites provided to get it to work. 
+- There was one day worth of delay due to network breakdowns, and could not do anything about it. 
+- Once my website was deployed to GitHub, the game area had dissappeared. The way I got it to work was to remove “/“ from the script file in HTML.
+- I tried 4 different tutorials from Youtube to get click sounds to work, and tried writing the code myself with no avail before copying the code from the link provided in code library section.  
+- The code I input for the click sound effects was not working for all the buttons, it only worked for the next button. Thanks to the Tutor Sean who helped me learn that this was a timing issue, that I needed to add an event listener AFTER the buttons have been generated on the page. It worked once that code was placed in a function and called it after the cards are generated.
+- To hide the ‘next question’ button once the score message pops up, I found a code online which I have added the link too. The code suggested to write [functionname].style.visibility = ‘hidden’;. I fixed this by changing the code to .style.display = 'none'; which I’ve used before, but in CSS.
 
 ## Bugs left unfixed
 
