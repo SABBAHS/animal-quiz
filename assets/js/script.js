@@ -49,6 +49,8 @@ function generateQuestionCards() {
     button.addEventListener("click", (e) => checkanswer(e));
     button.classList.add('answer-btn');
     options.appendChild(button);
+
+    buttonClickEventListener();
 }
 
 //Highlighting correct / incorrect answers 
@@ -76,7 +78,7 @@ function checkanswer(e) {
 //next question button // style.visibility = 'hide' inspired from here but not copied: https://stackoverflow.com/questions/8685107/hiding-a-button-in-javascript
 
 const nextQuestion = document.getElementById("nextQuestion");
-nextQuestion.addEventListener("click", function() {
+nextQuestion.addEventListener("click", function () {
     currentQuestion++;
     if (currentQuestion < Questions.length) {
         generateQuestionCards();
@@ -93,21 +95,28 @@ nextQuestion.addEventListener("click", function() {
     }
 });
 
+
+//button click sound. Code from here: https://dev.to/shantanu_jana/how-to-play-sound-on-button-click-in-javascript-3m48
+function buttonClickEventListener() {
+    const audio = new Audio("https://www.fesliyanstudios.com/play-mp3/6");
+    const buttons = document.querySelectorAll("button");
+
+    console.log(buttons)
+
+    buttons.forEach(button => {
+        button.addEventListener("click", () => {
+            audio.play();
+        });
+    });
+
+}
+
+
 //The start of the quiz
 startQuiz();
 
-//button click sound. Code from here: https://dev.to/shantanu_jana/how-to-play-sound-on-button-click-in-javascript-3m48
-const audio = new Audio("https://www.fesliyanstudios.com/play-mp3/6");
-const button = document.querySelectorAll("button");
-
-button.forEach(button => {
-    button.addEventListener("click", () => {
-        audio.play();
-    });
-});
-
 //retstart button. Code from here: https://teamtreehouse.com/community/any-one-know-how-to-make-a-restart-button
-document.querySelector('.restart-btn').addEventListener('click', function() {
+document.querySelector('.restart-btn').addEventListener('click', function () {
     window.location.reload();
     return false;
 });
