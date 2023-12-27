@@ -73,7 +73,7 @@ function checkanswer(e) {
     }
 }
 
-//next question button 
+//next question button // style.visibility = 'hide' code taken from here: https://stackoverflow.com/questions/8685107/hiding-a-button-in-javascript
 
 const nextQuestion = document.getElementById("nextQuestion");
 nextQuestion.addEventListener("click", function() {
@@ -86,6 +86,9 @@ nextQuestion.addEventListener("click", function() {
 
         const scoremessage = document.getElementById("scoredmessage");
         scoremessage.classList.remove("hide");
+
+        const nextbutton = document.getElementById('next-btn');
+        nextbutton.style.visibility = 'hide';
 
     }
 });

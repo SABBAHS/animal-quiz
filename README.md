@@ -97,8 +97,10 @@ Used to style header and innerHTML throughout the website.
 Used to create wireframes before coding in to have a visual examples.
 <li><span style="color:green">Stackoverflow</span></li>
 I searched for existing minor issues that were already posted on Stackoverflow by members to help inspire quick solutions to any issues I was having with my code.
-<li><span style="color:green">(![Vecteezy](https://www.vecteezy.com/vector-art/363727-silhouette-scene-with-wild-animals-at-sunset))</span><li>
+<li><span style="color:green">[Vecteezy](https://www.vecteezy.com/vector-art/)</span><li>
 For the background image, I used this website.
+<li><span style="color:green">[responsivetesttool](https://responsivetesttool.com/)</span><li>
+Used to test website on multiple and most common screens 
 <li><span style="color:green">YouTube</span></li>
 I've searched for tutorials and added this above relevant code
 
@@ -145,5 +147,10 @@ To deploy my webpage, I took the following steps:
 4. Under Branch select the publishing source, in my case I've selected 'main' and '/(root)', then click save
 5. After a few seconds, and refreshing the webpage, I was able to see a link to my website on the top of the webpage.
 6. Using git commit and git push to send my changes to GitHub I was able to see any changes made to the website.
+
+### Deploying the ReadME.md
+1. Commit the file, git add README.md 
+2. git commit -m "added README.md"
+3. git push 
    
 The site was deployed to github and can be found here: https://sabbahs.github.io/beautiful-interiors/
