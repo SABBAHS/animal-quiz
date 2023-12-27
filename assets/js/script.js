@@ -53,13 +53,11 @@ function generateQuestionCards() {
     buttonClickEventListener();
 }
 
-//Highlighting correct / incorrect answers 
+//Highlighting correct / incorrect answers / disable other options once selected
 function checkanswer(e) {
     console.log(e);
     const selectedanswer = e.target.innerText;
     const correctanswer = Questions[currentQuestion].correct_answer;
-    console.log('select', selectedanswer);
-    console.log('corre', correctanswer);
     if (selectedanswer == correctanswer) {
         e.target.classList.add("correctcolour");
         score++;
@@ -110,7 +108,6 @@ function buttonClickEventListener() {
     });
 
 }
-
 
 //The start of the quiz
 startQuiz();

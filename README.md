@@ -9,17 +9,17 @@ The website is brightly styled, features a consistent theme and clear for users 
 
  Prior to coding the game, I used Cacoo and Balsamic to create wireframes to get an idea of how I want create a realistic and achievable design. The idea is to give me a basic visual structure before I write the markup, and style the CSS.
 
- Below you will find a colour and text style scheme, a webpage layout of the quiz (please note I wrote 'questions' where the 'answers' would be in error), the score pop-up message, and a mobile view which is similar to the desktop views, using media queries I am able to downsize it. 
+ Below you will find a colour and text style scheme featuring white, black and orange, a webpage layout of the quiz (please note I wrote 'questions' where the 'answers' would be in error), the score pop-up message, and a mobile view which is similar to the desktop views, using media queries I am able to downsize it. 
  
 
 <table>
 <tr>
 <td><img src=assets/images/wireframe.jpg width=100% height=auto alt="colour and text styles"></td>
-<td><img src=assets/images/wireframe1.jpg width=100% height=auto alt="webpage structure"></td>
+<td><img src=assets/images/wireframe1.jpg width=100% height=auto alt="wireframe showcasing a pop-up score message at the end"></td>
 </tr>
 <tr>
-<td><img src=assets/images/wireframe2.jpg width=100% height=auto alt="homepage wireframe"></td>
-<td><img src=assets/images/mobile-view.jpg width=100% height=auto alt="wireframe for the services page"></td>
+<td><img src=assets/images/wireframe2.jpg width=100% height=auto alt="wireframe showcasing main quiz page layout"></td>
+<td><img src=assets/images/mobile-view.jpg width=100% height=auto alt="wireframe for mobile screen"></td>
 </tr>
 </table>
 
@@ -27,55 +27,40 @@ The website is brightly styled, features a consistent theme and clear for users 
 
 <table>
 <tr>
-<td><img src=/assets/images/homepage.jpg width=100% height=auto alt="colour and text styles"></td>
+<td><img src=assets/images/correct-laptop-desktop.jpg width=100% height=auto alt="laptop/desktop view showing quiz when answer is correct"></td>
+<td><td><img src=assets/images/incorrect-desktop.jpg width=100% height=auto alt="laptop/desktop view showing quiz when answer is incorrect"></td>
 <ul>
-<li>The index page consists of a consistent use of beige, green and white colours.</li>
-<li>The logo also acts as a link to the homepage, and beside it to the right is a navigation bar that links to three pages, when hovered over the links on a desktop or laptop the text changes colour to grey.</li>
-<li>Hero image is placed in the center which zooms in when users open the webpage. A slogan is seen at the bottom left on larger screens.
-<li>Two YouTube videos are placed on the homepage which adds more functionality and content to the  homepage. 
-<li> A footer is consistently shown on every page with a similar colour scheme, linking it to four social media accounts. The copyright is intentionally placed for up to 430px as it did not look good on smaller screens.</li>
+<li>The quiz features a logo, a section for questions, four buttons with options of answers for using to select from, and a next question button. 
+<li>As shown, once the selection is chosen, the user will immediately be able to see weather their answer is correct (highlighted in green) or incorrect (highlighted in red).
+<li>Once a answer selection is made, the other options will be disabled, which stops the user from deselecting and selecting. 
+<li>Throughout the page the buttons display a clicking sound. 
+<li>Once the user has answered the question, there is a 'Next Question' button, this will return another set of questions, and answers.
+<li>Code has been appropriately added to ensure that the quiz randomly displays correct and incorrect answers, as initially all the correct answers where displaying at the bottom. 
 </ul>
 </tr>
 </table>
 
 <table>
 <tr>
-<td><td><img src=assets/images/projects-page.jpg width=100% height=auto alt="Projects Page"></td>
+<td><img src=assets/images/ipad.jpg width=100% height=auto alt="Projects Page"></td>
+<td><img src=assets/images/small-phone.jpg width=100% height=auto alt="Projects Page"></td>
 <ul>
-<li>The projects page features a gallery of nine photographs of various interior design styles from bedroom to home office designs.</li> 
-<li>On larger screens there is a hover feature, where the background blurs and a text detailing the imagery appears.</li>
-<li>Using flexbox, the images were able to appear to be more inline and centered, also sizing down evenly as the size of the screen reduces.</li>
-</ul>
+<li>Media queries have been placed to ensure that the quiz looks size appropriate in smaller screen sizes, and that the question and answer text are clearly readable by the user.
+<li>Whilst the background image features silhouette of animals, I've decided to keep the image zoomed in as the images looked a bit distracting and too busy, the orange tones looked nice as it is, and complimented the theme of the webpage. 
 </tr>
 </table>
 
 <table>
 <tr>
-<td><img src=assets/images/services-page.jpg width=100% height=auto alt="Services Page"></td>
-<td><img src=assets/images/mobile-services.jpg width=100% height=auto alt="Services page as mobile view"></td>
+<td><img src=assets/images/end-game.jpg width=100% height=auto alt="End of quiz pop-up message displaying user score on iPad"></td>
+<td><img src=assets/images/endgamedesktop.jpg width=100% height=auto alt="End of quiz pop-up message displaying user score on desktop"></td>
 <ul>
-<li> The services pages is where users can find an overview of the companies services listed in an organised fashion, with clear and concise wording so that anyone who is not a professional designer can understand.</li>
-<li>As drawn out in the wireframe, for larger screens the design consists of two images in each row with a text box in the middle.</li>
-<li> For mobile view, the best way to achieve a cleaner aesthetic was to hide every second photo. The result as shown is one image per text box which is stacked on top of each other.</li>
+<li> Once the user has gotten through all 10 questions, the 'Next button' will disappear and reveal a black box with orange text letting the user know that they've completed the quiz, and display the number of correct answers they've scored. 
+<li>Within the black box, users will have the option to click the 'Play Again' button which will restart the quiz, and shuffle the questions and answers.
 </ul>
 </tr>
 </table>
 
-<table>
-<tr>
-<td><img src=assets/images/contact-page.jpg width=100% height=auto alt="Contact Page"></td>
-<td><img src=assets/images/dropdown.jpg width=100% height=auto alt="Contact page featuring a dropdown menu"></td>
-<td><img src=assets/images/mobile-contact.jpg width=100% height=auto alt="Contact page featured on mobile view"></td>
-<ul>
-<li> The contacts page is designed for users to leave their name, email, phone number, and reason for contact to hear back from the company. Using form validation, the user will receive a notification if any required fields have not been entered.</li>
-<li>A text box below the form features three key contact information such as a number, address and email address with accompanied fontawesome icons for users that prefer to contact the company another way. Under this is an embedded map which makes this page more interactive and engaging</li>
-<li> As shown in the screenshots on the far right, the mobile view has hidden the input field for user surname and mobile number to keep it short.</li>
-<li>When the screen size is reduced to an iPad and mobile view, users will find a burger toggle button on the top right corner beside the logo. This drops down a menu with the three other pages, when clicked, the link displays an underline before opening the new page.</li>
-</ul>
-</tr>
-</table>
-
-## Features for the future 
 
 # Technologies used
 Languages used: 
@@ -126,11 +111,13 @@ I've searched for tutorials and added this above relevant code
 
 ## Bugs left unfixed
 
+I cannot see any bugs unfixed.
+
 ## Validation 
 
 - I've confirmed that no errors were flagged when passing all pages of my HTML code by direct input through the [official W3C Validator](![HTML Code quality tool](https://validator.w3.org/#validate_by_input))
 - I've confirmed that no errors were flagged when passing my CSS code by direct input through the [official Jigsaw Validator](![CSS code quality tool](https://jigsaw.w3.org/css-validator/#validate_by_input))
-- I've confirmed that no errors were flagged when passing my JavaScript code by direct input through the [JShint](![JavaScript Code Quality Tool](assets/images/quiz-logo.jpg))
+- I've confirmed that no errors were flagged when passing my JavaScript code by direct input through the [JShint](![JavaScript Code Quality Tool](assets/images/jshint1.jpg))
 - I've run the lighthouse tool via devtools to test the performance of the website with good results.
   <br>
 <img src=assets/images/css.jpg width=40% height=auto>
@@ -139,21 +126,28 @@ I've searched for tutorials and added this above relevant code
   
 
 # Credits
-
+Trivia API, provided by Mentor: https://opentdb.com/api_config.php
+How to fetch API data, link provided by Mentor:: https://reqbin.com/code/javascript/wc3qbk0b/javascript-fetch-json-example 
+E.target explanation: https://www.altcademy.com/blog/what-is-e-target-in-javascript/#:~:text=In%20JavaScript%2C%20e%20typically%20stands,click%20or%20a%20keystroke%2C%20happened
+Mouse click: https://www.fesliyanstudios.com/royalty-free-sound-effects-download/mouse-click-2
+Mouse click how to: https://dev.to/shantanu_jana/how-to-play-sound-on-button-click-in-javascript-3m48
+Restart button: https://teamtreehouse.com/community/any-one-know-how-to-make-a-restart-button 
+JS formatter: https://beautifier.io/
+Code inspired from here but not copied: https://stackoverflow.com/questions/8685107/hiding-a-button-in-javascript
 
 
 # Deployment
 To deploy my webpage, I took the following steps:
-1. head to the web page's repository, and select 'settings'
-2. from settings, select 'pages' on the left-hand corner
-3. Under Source select 'deploy from branch'
-4. Under Branch select the publishing source, in my case I've selected 'main' and '/(root)', then click save
-5. After a few seconds, and refreshing the webpage, I was able to see a link to my website on the top of the webpage.
-6. Using git commit and git push to send my changes to GitHub I was able to see any changes made to the website.
+1) head to the web page's repository, and select 'settings'
+2) from settings, select 'pages' on the left-hand corner
+3) Under Source select 'deploy from branch'
+4) Under Branch select the publishing source, in my case I've selected 'main' and '/(root)', then click save
+5) After a few seconds, and refreshing the webpage, I was able to see a link to my website on the top of the webpage.
+6) Using git commit and git push to send my changes to GitHub I was able to see any changes made to the website.
 
 ### Deploying the ReadME.md
-1. Commit the file, git add README.md 
-2. git commit -m "added README.md"
-3. git push 
+1) Commit the file, git add README.md 
+2) git commit -m "added README.md"
+3) git push 
    
 The site was deployed to github and can be found here: https://sabbahs.github.io/beautiful-interiors/
