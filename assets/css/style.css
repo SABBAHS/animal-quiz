@@ -80,13 +80,13 @@ h2 {
 }
 
 .incorrectcolour {
-	border-color: red;
-	background-color: rgba(255, 18, 60, 0.47);
+	border-color: red !important;
+	background-color: rgba(255, 18, 60, 0.47) !important;
 }
 
 .correctcolour {
-	border-color: rgb(11, 124, 11);
-	background-color: rgba(0, 213, 61, 0.45);
+	border-color: rgb(11, 124, 11) !important;
+	background-color: rgba(0, 213, 61, 0.45) !important;
 }
 
 .message {
@@ -280,7 +280,6 @@ h2 {
 		font-size: 19px;
 		width: 300px;
 		right: 40%;
-		background-color: whitesmoke;
 		border: 1px solid black;
 	}
 
