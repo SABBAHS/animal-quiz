@@ -27,30 +27,38 @@ async function startQuiz() {
 //using this I can go through each question in the question array
 var currentQuestion = 0;
 
-function generateQuestionCards() {
 
+function generateQuestionCards() {
     const questionText = document.getElementById("questiontext");
     const options = document.getElementById("options");
 
-    //display the question in the header H2 element
+    // Display the question in the header H2 element
     questionText.innerHTML = Questions[currentQuestion].question;
     options.innerHTML = "";
-    //loop through each options(incorrect_answers) to display it to the user. Name that value, and create button. Append to child (button).
-    Questions[currentQuestion].incorrect_answers.forEach((value, index) => {
+
+    // Combine incorrect and correct answers into one array
+    const allAnswers = [...Questions[currentQuestion].incorrect_answers, Questions[currentQuestion].correct_answer];
+
+    // Shuffle the array
+    const shuffledAnswers = shuffleArray(allAnswers);
+
+    shuffledAnswers.forEach((value, index) => {
         const button = document.createElement("button");
         button.innerHTML = value;
         button.classList.add('answer-btn');
         button.addEventListener("click", (e) => checkanswer(e));
         options.appendChild(button);
     });
-    //display the correct option by accessing the [currentquestion] array. Create button.
-    const button = document.createElement("button");
-    button.innerHTML = Questions[currentQuestion].correct_answer;
-    button.addEventListener("click", (e) => checkanswer(e));
-    button.classList.add('answer-btn');
-    options.appendChild(button);
 
     buttonClickEventListener();
+}
+
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
 }
 
 //Highlighting correct / incorrect answers / disable other options once selected
