@@ -15,7 +15,7 @@ async function startQuiz() {
         })))
         //after parsing the response, store the questions in the Question variable(which is an array)
         .then((res) => {
-            Questions = res.data.results
+            Questions = res.data.results;
         })
         //if anything goes wrong with getting the questions from api display the error in console.
         .catch((err) => console.log(err));
@@ -75,6 +75,7 @@ function checkanswer(e) {
     } else {
         e.target.classList.add("incorrectcolour");
     }
+    let i = 0;
     const buttonoptions = document.getElementsByClassName("answer-btn");
     for (i = 0; i < buttonoptions.length; i++) {
         buttonoptions[i].disabled = true;
@@ -107,7 +108,7 @@ function buttonClickEventListener() {
     const audio = new Audio("https://www.fesliyanstudios.com/play-mp3/6");
     const buttons = document.querySelectorAll("button");
 
-    console.log(buttons)
+    console.log(buttons);
 
     buttons.forEach(button => {
         button.addEventListener("click", () => {

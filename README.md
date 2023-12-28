@@ -1,4 +1,4 @@
-(![quiz logo](assets/images/quiz-logo.jpg))
+[quiz logo](assets/images/quiz-logo.jpg)
 
 # Summary
 Animal quiz is a trivia multiple choice question quiz, which is designed to test users animal knowledge. The quiz features four choices of questions, which highlights green or red to indication correct or incorrect knowledge, and finally presenting a score at the end. 
@@ -116,9 +116,9 @@ I cannot see any bugs unfixed.
 
 ## Validation 
 
-- I've confirmed that no errors were flagged when passing all pages of my HTML code by direct input through the [official W3C Validator](![HTML Code quality tool](https://validator.w3.org/#validate_by_input))
-- I've confirmed that no errors were flagged when passing my CSS code by direct input through the [official Jigsaw Validator](![CSS code quality tool](https://jigsaw.w3.org/css-validator/#validate_by_input))
-- I've confirmed that no errors were flagged when passing my JavaScript code by direct input through the [JShint](![JavaScript Code Quality Tool](assets/images/jshint1.jpg))
+- I've confirmed that no errors were flagged when passing all pages of my HTML code by direct input through the [official W3C Validator](https://validator.w3.org/#validate_by_input)
+- I've confirmed that no errors were flagged when passing my CSS code by direct input through the [official Jigsaw Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+- I've confirmed that no errors were flagged when passing my JavaScript code by direct input through the [JShint](assets/images/jshint1.jpg)
 - I've run the lighthouse tool via devtools to test the performance of the website with good results.
   <br>
 <img src=assets/images/css.jpg width=40% height=auto>
