@@ -1,4 +1,4 @@
-![Animal Quiz](![quiz logo](assets/images/quiz-logo.jpg))
+(![quiz logo](assets/images/quiz-logo.jpg))
 
 # Summary
 Animal quiz is a trivia multiple choice question quiz, which is designed to test users animal knowledge. The quiz features four choices of questions, which highlights green or red to indication correct or incorrect knowledge, and finally presenting a score at the end. 
@@ -72,21 +72,21 @@ Languages used:
 
 Libraries, websites and frameworks:
 
-<Li><span style="color:green">Fontawesome</span></Li> 
+<Li>Fontawesome
 All of the icons for the footer and contacts page were taken from Fontawesome.
-<Li><span style="color:green">Github</span></li>  
+<Li>Github
 Used frequently to commit, and push codes.
-<Li><span style="color:green">Google Fonts</span></li>   
+<Li>Google Fonts 
 Used to style header and innerHTML throughout the website.
-<li><span style="color:green">Cacoo and Balsamic</span></li> 
+<li>Cacoo and Balsamic
 Used to create wireframes before coding in to have a visual examples.
-<li><span style="color:green">Stackoverflow</span></li>
+<li>Stackoverflow
 I searched for existing minor issues that were already posted on Stackoverflow by members to help inspire quick solutions to any issues I was having with my code.
-<li><span style="color:green">[Vecteezy](https://www.vecteezy.com/vector-art/)</span><li>
+<li>[Vecteezy](https://www.vecteezy.com/vector-art/)
 For the background image, I used this website.
-<li><span style="color:green">[responsivetesttool](https://responsivetesttool.com/)</span><li>
+<li>[responsivetesttool](https://responsivetesttool.com/)
 Used to test website on multiple and most common screens 
-<li><span style="color:green">YouTube</span></li>
+<li>YouTube
 I've searched for tutorials and added this above relevant code
 
 
@@ -106,8 +106,9 @@ I've searched for tutorials and added this above relevant code
 - There was one day worth of delay due to network breakdowns, and could not do anything about it. 
 - Once my website was deployed to GitHub, the game area had dissappeared. The way I got it to work was to remove “/“ from the script file in HTML.
 - I tried 4 different tutorials from Youtube to get click sounds to work, and tried writing the code myself with no avail before copying the code from the link provided in code library section.  
-- The code I input for the click sound effects was not working for all the buttons, it only worked for the next button. Thanks to the Tutor Sean who helped me learn that this was a timing issue, that I needed to add an event listener AFTER the buttons have been generated on the page. It worked once that code was placed in a function and called it after the cards are generated.
+- The code I input for the click sound effects was not working for all the buttons, it only worked for the next button. Thanks to the Tutor Sean who helped me learn that this was a timing issue, that I needed to add an event listener AFTER the buttons have been generated on the page. It worked once that code was placed in a function and called it after the cards are generated. 
 - To hide the ‘next question’ button once the score message pops up, I found a code online which I have added the link too. The code suggested to write [functionname].style.visibility = ‘hidden’;. I fixed this by changing the code to .style.display = 'none'; which I’ve used before, but in CSS.
+- For the title logo, I chose Cairo Play google font text, however, it was not working on the smaller screens, so I changed it to another font which looks suitable and matches the brand. 
 
 ## Bugs left unfixed
 
@@ -126,14 +127,14 @@ I cannot see any bugs unfixed.
   
 
 # Credits
-Trivia API, provided by Mentor: https://opentdb.com/api_config.php
-How to fetch API data, link provided by Mentor:: https://reqbin.com/code/javascript/wc3qbk0b/javascript-fetch-json-example 
-E.target explanation: https://www.altcademy.com/blog/what-is-e-target-in-javascript/#:~:text=In%20JavaScript%2C%20e%20typically%20stands,click%20or%20a%20keystroke%2C%20happened
-Mouse click: https://www.fesliyanstudios.com/royalty-free-sound-effects-download/mouse-click-2
-Mouse click how to: https://dev.to/shantanu_jana/how-to-play-sound-on-button-click-in-javascript-3m48
-Restart button: https://teamtreehouse.com/community/any-one-know-how-to-make-a-restart-button 
-JS formatter: https://beautifier.io/
-Code inspired from here but not copied: https://stackoverflow.com/questions/8685107/hiding-a-button-in-javascript
+- Trivia API, provided by Mentor: https://opentdb.com/api_config.php
+- How to fetch API data, link provided by Mentor:: https://reqbin.com/code/javascript/wc3qbk0b/javascript-fetch-json-example 
+- E.target explanation: https://www.altcademy.com/blog/what-is-e-target-in-javascript/#:~:text=In%20JavaScript%2C%20e%20typically%20stands,click%20or%20a%20keystroke%2C%20happened
+- Mouse click: https://www.fesliyanstudios.com/royalty-free-sound-effects-download/mouse-click-2
+- Mouse click how to: https://dev.to/shantanu_jana/how-to-play-sound-on-button-click-in-javascript-3m48
+- Restart button: https://teamtreehouse.com/community/any-one-know-how-to-make-a-restart-button 
+- JS formatter: https://beautifier.io/
+- Code inspired from here but not copied: https://stackoverflow.com/questions/8685107/hiding-a-button-in-javascript
 
 
 # Deployment
