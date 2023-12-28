@@ -118,7 +118,7 @@ No bugs found.
 
 - I've confirmed that no errors were flagged when passing all pages of my HTML code by direct input through the [official W3C Validator](https://validator.w3.org/#validate_by_input)
 - I've confirmed that no errors were flagged when passing my CSS code by direct input through the [official Jigsaw Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
-- I've confirmed that no errors were flagged when passing my JavaScript code by direct input through the [JShint](assets/images/jshint.jpg)
+- I've confirmed that no errors were flagged when passing my JavaScript code by direct input through the [JShint](https://jshint.com/)
 - I've run the lighthouse tool via devtools to test the performance of the website with good results.
   <br>
 <img src=assets/images/css.jpg width=40% height=auto>
