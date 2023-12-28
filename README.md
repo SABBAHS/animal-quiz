@@ -1,4 +1,4 @@
-[quiz logo](assets/images/quiz-logo.jpg)
+<img src=assets/images/quiz-logo.jpg width=100% height=auto alt="logo">
 
 [Animal Quiz](https://sabbahs.github.io/animal-quiz/)
 
