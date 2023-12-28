@@ -1,5 +1,7 @@
 [quiz logo](assets/images/quiz-logo.jpg)
 
+[Animal Quiz](https://sabbahs.github.io/animal-quiz/)
+
 # Summary
 Animal quiz is a trivia multiple choice question quiz, which is designed to test users' animal knowledge. The quiz features four choices of questions, which highlight green or red to indicate correct or incorrect knowledge, and finally a score at the end. 
 The website is brightly styled, features a consistent theme and is clear for users to read and understand.
@@ -149,4 +151,4 @@ To deploy my webpage, I took the following steps:
 2) git commit -m "added README.md"
 3) git push 
    
-The site was deployed to github and can be found here: https://sabbahs.github.io/beautiful-interiors/
+The site was deployed to github and can be found here: https://sabbahs.github.io/animal-quiz/
