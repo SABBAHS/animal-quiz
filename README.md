@@ -3,13 +3,13 @@
 [Animal Quiz](https://sabbahs.github.io/animal-quiz/)
 
 # Summary
-Animal quiz is a trivia multiple choice question quiz, which is designed to test users' animal knowledge. The quiz features four choices of questions, which highlight green or red to indicate correct or incorrect knowledge, and finally a score at the end. 
+Animal quiz is a trivia multiple choice question quiz, which is designed to test users' animal knowledge. The quiz features four choices of answers, which highlight green or red to indicate the correct or incorrect option, and finally a score at the end. 
 The website is brightly styled, features a consistent theme and is clear for users to read and understand.
 <br>
 
 # Wireframes
 
-Before coding the game, I used Cacoo and Balsamic to create wireframes to get an idea of how I wanted to create a realistic and achievable design. The idea is to give me a basic visual structure before I write the markup and style the CSS.
+Before coding the game, I used Cacoo and Balsamic to create wireframes to get an idea of how I wanted to create a realistic and achievable design. The idea is to outline a basic visual structure before writing the markup and style the CSS.
 
 Below you will find a colour and text style scheme featuring white, black and orange, a webpage layout of the quiz (please note I wrote 'questions' where the 'answers' would be in error), the score pop-up message, and a mobile view which is similar to the desktop views, using media queries I can downsize it. 
  
@@ -34,7 +34,7 @@ Below you will find a colour and text style scheme featuring white, black and or
 <ul>
 <li>The quiz features a logo, a section for questions, four buttons with options of answers for use to select from, and a next question button. 
 <li>As shown, once the selection is chosen, the user will immediately be able to see whether their answer is correct (highlighted in green) or incorrect (highlighted in red).
-<li>Once an answer selection is made, the other options will be disabled, which stops the user from deselecting and selecting. 
+<li>Once an answer selection is made, the other options will be disabled, which stops the user from cheating i.e. deselecting and selecting. 
 <li>Throughout the page the buttons display a clicking sound. 
 <li>Once the user has answered the question, there is a 'Next Question' button, this will return another set of questions and answers.
 <li>Code has been appropriately added to ensure that the quiz randomly displays correct and incorrect answers, as initially all the correct answers were displayed at the bottom. 
@@ -74,22 +74,22 @@ Languages used:
 
 Libraries, websites and frameworks:
 
-<Li>Fontawesome
+<Li>**Fontawesome**
 All of the icons for the footer and contacts page were taken from Fontawesome.
-<Li>Github
+<Li>**Github**
 Used frequently to commit, and push codes.
-<Li>Google Fonts 
+<Li>**Google Fonts**
 Used to style header and innerHTML throughout the website.
-<li>Cacoo and Balsamic
+<li>**Cacoo and Balsamic**
 Used to create wireframes before coding in to have a visual example.
-<li>Stackoverflow
-I searched for existing minor issues that were already posted on Stackoverflow by members to help inspire quick solutions to any issues I was having with my code.
-<li>[Vecteezy](https://www.vecteezy.com/vector-art/)
+<li>**Stackoverflow**
+Used to find existing issues to help fix minor issues with code, any code taken has been referenced. 
+<li>**[Vecteezy](https://www.vecteezy.com/vector-art/)**
 For the background image, I used this website.
-<li>[responsivetesttool](https://responsivetesttool.com/)
+<li>**[responsivetesttool](https://responsivetesttool.com/)**
 Used to test website on multiple and most common screens 
-<li>YouTube
-I've searched for tutorials and written this above relevant code
+<li>**YouTube**
+I've searched for tutorials, any code used has been referenced.
 
 
 # Testing
@@ -97,7 +97,7 @@ I've searched for tutorials and written this above relevant code
 ## Browsers and Screen sizes
 - I've confirmed that the pages are all responsive, and look good on multiple large screen sizes, especially starting from 1700px to the smallest being 360px. 
 - I've gone through the majority of the screens on devtools, and even further on [responsivetesttool](https://responsivetesttool.com/).
-- I've confirmed text, especially for questions and answers is readable, and the colour scheme does not clash or cause any issues to the user's ability to smoothly navigate around the page.
+- I've confirmed that the text, especially for questions and answers is readable, and the colour scheme does not clash or cause any issues to the user's ability to smoothly navigate around the page.
 - I've confirmed that the website is easy to navigate for a user, and accurately displays a score at the end of the quiz, and responds quickly indicating the right or wrong answer. The quiz also offers to start again at the end which in turn reshuffles the questions.
   
 ## Bugs encountered 
@@ -128,14 +128,13 @@ No bugs found.
 
 # Credits
 - Trivia API, provided by Mentor: https://opentdb.com/api_config.php
-- How to fetch API data, link provided by Mentor:: https://reqbin.com/code/javascript/wc3qbk0b/javascript-fetch-json-example 
+- How to fetch API data, link provided by Mentor: https://reqbin.com/code/javascript/wc3qbk0b/javascript-fetch-json-example 
 - E.target explanation: https://www.altcademy.com/blog/what-is-e-target-in-javascript/#:~:text=In%20JavaScript%2C%20e%20typically%20stands,click%20or%20a%20keystroke%2C%20happened
 - Mouse click: https://www.fesliyanstudios.com/royalty-free-sound-effects-download/mouse-click-2
 - Mouse click how to: https://dev.to/shantanu_jana/how-to-play-sound-on-button-click-in-javascript-3m48
 - Restart button: https://teamtreehouse.com/community/any-one-know-how-to-make-a-restart-button 
 - JS formatter: https://beautifier.io/
 - Code inspired from here but not copied: https://stackoverflow.com/questions/8685107/hiding-a-button-in-javascript
-
 
 # Deployment
 To deploy my webpage, I took the following steps:
