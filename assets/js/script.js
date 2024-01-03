@@ -70,8 +70,7 @@ function checkanswer(e) {
         e.target.classList.add("correctcolour");
         score++;
         const yourscore = document.getElementById('yourscore');
-        yourscore.textContent = score;
-
+        yourscore.textContent=score;
     } else {
         e.target.classList.add("incorrectcolour");
     }
