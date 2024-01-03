@@ -80,13 +80,16 @@ function checkanswer(e) {
     for (i = 0; i < buttonoptions.length; i++) {
         buttonoptions[i].disabled = true;
     }
+    document.getElementById("nextQuestion").disabled = false
 }
+
 
 //next question button // style.visibility = 'hide' inspired from here but not copied: https://stackoverflow.com/questions/8685107/hiding-a-button-in-javascript
 
 const nextQuestion = document.getElementById("nextQuestion");
 nextQuestion.addEventListener("click", function () {
     currentQuestion++;
+    document.getElementById("nextQuestion").disabled = true
     if (currentQuestion < Questions.length) {
         generateQuestionCards();
     } else {
