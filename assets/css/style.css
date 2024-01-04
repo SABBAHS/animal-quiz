@@ -5,7 +5,8 @@
 	top: 20px;
 	display: inline-block;
 	place-items: center;
-	right: 20%;
+	margin-left: 20%;
+    margin-top: 1%;
 	width: 1000px;
 }
 
