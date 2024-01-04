@@ -79,7 +79,7 @@ function checkanswer(e) {
     for (i = 0; i < buttonoptions.length; i++) {
         buttonoptions[i].disabled = true;
     }
-    document.getElementById("nextQuestion").disabled = false
+    document.getElementById("nextQuestion").disabled = false;
 }
 
 
@@ -88,7 +88,7 @@ function checkanswer(e) {
 const nextQuestion = document.getElementById("nextQuestion");
 nextQuestion.addEventListener("click", function () {
     currentQuestion++;
-    document.getElementById("nextQuestion").disabled = true
+    document.getElementById("nextQuestion").disabled = true;
     if (currentQuestion < Questions.length) {
         generateQuestionCards();
     } else {

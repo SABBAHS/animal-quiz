@@ -1,6 +1,8 @@
 <img src=assets/images/quiz-logo.jpg width=100% height=auto alt="logo">
 
 [Animal Quiz](https://sabbahs.github.io/animal-quiz/)
+Desktop 1024 x 768:
+<img src=assets/images/mainscreen.jpg width=100% height=auto alt="Desktop view 1024 x 768">
 
 # Summary
 Animal quiz is a trivia multiple choice question quiz, which is designed to test users' animal knowledge. The quiz features four choices of answers, which highlight green or red to indicate the correct or incorrect option, and finally a score at the end. 
@@ -44,8 +46,8 @@ Below you will find a colour and text style scheme featuring white, black and or
 
 <table>
 <tr>
-<td><img src=assets/images/ipad.jpg width=100% height=auto alt="Projects Page"></td>
-<td><img src=assets/images/small-phone.jpg width=100% height=auto alt="Projects Page"></td>
+<td><img src=assets/images/ipad-animal.jpg width=100% height=auto alt="iPad view"></td>
+<td><img src=assets/images/phone.jpg width=100% height=auto alt="Phone view"></td>
 <ul>
 <li>Media queries have been placed to ensure that the quiz looks size appropriate in smaller screen sizes and that the question and answer text are readable by the user.
 <li>Whilst the background image features silhouettes of animals, I've decided to keep the image zoomed in as the images looked a bit distracting and too busy, the orange tones looked nice as it is, and complimented the theme of the webpage. 
@@ -55,7 +57,7 @@ Below you will find a colour and text style scheme featuring white, black and or
 <table>
 <tr>
 <td><img src=assets/images/end-game.jpg width=100% height=auto alt="End of quiz pop-up message displaying user score on iPad"></td>
-<td><img src=assets/images/endgamedesktop.jpg width=100% height=auto alt="End of quiz pop-up message displaying user score on desktop"></td>
+<td><img src=assets/images/nesthub-animal.jpg width=100% height=auto alt="End of quiz pop-up message displaying user score on nest hub"></td>
 <ul>
 <li> Once the user has gotten through all 10 questions, the 'Next button' will disappear and reveal a black box with orange text letting the user know that they've completed the quiz, and display the number of correct answers they've scored. 
 <li>Within the black box, users will have the option to click the 'Play Again' button which will restart the quiz, and shuffle the questions and answers.
@@ -112,13 +114,22 @@ I've searched for tutorials, any code used has been referenced.
 
 ## Bugs left unfixed
 
-No bugs found.
+- On my personal phone, iPhone 14 pro max, when you click on a button once it makes echoeing sound which is unlike anything ive tested anywhere else, issue is left unresolved. 
+
+## User experience
+- Easy for users to understand the purpose of the game, as it is immediately evident due to the layout, and the subheading tells the user that there will be 10 questions to answer so that the user is aware of how long it will be for.
+- The 'Next' button is disabled until the user selects an answer.
+- When the answer is selected the user will promptly learn if the answer was incorrect or correct.
+- Also when an answer is selected the other options are disabled to prevent the user from cheating i.e. reselecting and deselecting.
+- There is no stopping the user from restarting the quiz mid-way by refreshing the page which will automatically restart, however, I expect the user to complete it by the end. 
+- All buttons feature a 'click' sound, adding to the interactivity.
+- Once the user has reached the end of the 10 questions, their score will appear on the screen, the 'next' button will disappear and there will be a 'Play Again' button to restart the game and shuffle the questions. 
 
 ## Validation 
 
 - I've confirmed that no errors were flagged when passing all pages of my HTML code by direct input through the [official W3C Validator](https://validator.w3.org/#validate_by_input)
 - I've confirmed that with using //jshint esversion:8 above my code, no errors were flagged when passing my CSS code by direct input through the [official Jigsaw Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
-- I've confirmed that no errors were flagged when passing my JavaScript code by direct input through the [JShint](https://jshint.com/)
+- I've confirmed that no errors were flagged when passing my JavaScript code by direct input through the [JShint](https://jshint.com/), adding /*jshint esversion: 8 */ above my code. 
 - I've run the lighthouse tool via devtools to test the performance of the website with good results.
   <br>
 <img src=assets/images/css.jpg width=40% height=auto>
