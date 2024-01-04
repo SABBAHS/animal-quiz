@@ -60,7 +60,7 @@ Below you will find a colour and text style scheme featuring white, black and or
 <table>
 <tr>
 <td><img src=assets/images/ipad-end.jpg width=100% height=auto alt="End of quiz pop-up message displaying user score on iPad"></td>
-<td><img src=assets/images/nesthub-animal.jpg width=100% height=auto alt="End of quiz pop-up message displaying user score on nest hub"></td>
+<td><img src=assets/images/end-nest.jpg width=100% height=auto alt="End of quiz pop-up message displaying user score on nest hub"></td>
 <ul>
 <li> Once the user has gotten through all 10 questions, the 'Next button' will disappear and reveal a black box with orange text letting the user know that they've completed the quiz, and display the number of correct answers they've scored. 
 <li>Within the black box, users will have the option to click the 'Play Again' button which will restart the quiz, and shuffle the questions and answers.

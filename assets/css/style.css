@@ -99,6 +99,7 @@ h2 {
 	text-align: center;
 	font-size: 40px;
 	border-radius: 10px;
+	font-family: 'Unbounded', sans-serif;
 }
 
 .hide {
@@ -229,6 +230,7 @@ h5 {
 		margin: 0 5%;
 		border-radius: 10px;
 		width: 900px;
+		font-family: 'Unbounded', sans-serif;
 	}
 }
 
@@ -289,6 +291,7 @@ h5 {
 		top: 145px;
 		width: 650px;
 		margin: 0 10%;
+		font-family: 'Unbounded', sans-serif;
 	}
 }
 
@@ -386,6 +389,7 @@ h5 {
 		width: 370px;
 		left: 35px;
 		border-radius: 10px;
+		font-family: 'Unbounded', sans-serif;
 	}
 	.restart-btn {
 		width: 140px;
@@ -439,6 +443,7 @@ h5 {
 	margin: 0 5%;
     border-radius: 10px;
 	width: 350px;
+	font-family: 'Unbounded', sans-serif;
 	}
 
 	#options {
