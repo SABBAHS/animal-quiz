@@ -79,7 +79,7 @@ Languages used:
 <lI>CSS
 <li>JavaScript
 
-Libraries, websites and frameworks:
+###Libraries, websites and frameworks:
 
 <Li>Fontawesome
 All of the icons for the footer and contacts page were taken from Fontawesome.
@@ -123,6 +123,11 @@ I've searched for tutorials, any code used has been referenced.
 
 - On my personal phone, iPhone 14 pro max, when you click on a button once it makes echoeing sound which is unlike anything ive tested anywhere else, issue is left unresolved. 
 
+## Design oddities 
+
+- The vector background image is intended to be zoomed up.
+- Copyright at the bottom of the page is not intended to show on every page particularly larger screens.
+- The next button appears a little too low, away from the quiz buttons on the iPad pro. If I move the next button any higher, it would clash with the quiz on the nest hub device - these were both 1024px wide. One way around this is for the user to turn the device landscape, although this has not been considered for other devices. 
 
 ## Validation 
 
