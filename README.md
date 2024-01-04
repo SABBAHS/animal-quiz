@@ -2,7 +2,7 @@
 
 [Animal Quiz](https://sabbahs.github.io/animal-quiz/)
 
-<img src=assets/images/mainscreen.jpg max-width: 500px; height: 400px; alt="Desktop view 1024 x 768">
+<img src=assets/images/mainscreen.jpg max-width= 500px; height= 400px; alt="Desktop view 1024 x 768">
 
 # Summary
 Animal quiz is a trivia multiple choice question quiz, which is designed to test users' animal knowledge. The quiz features four choices of answers, which highlight green or red to indicate the correct or incorrect option, and finally a score at the end. 
@@ -35,6 +35,7 @@ Below you will find a colour and text style scheme featuring white, black and or
 <td><td><img src=assets/images/incorrect-desktop.jpg width=100% height=auto alt="laptop/desktop view showing quiz when answer is incorrect"></td>
 <ul>
 <li>The quiz features a logo, a section for questions, four buttons with options of answers for use to select from, and a next question button. 
+<li>Users will not be allowed to skip a question, the Next button is disabled until an option has been selected. 
 <li>As shown, once the selection is chosen, the user will immediately be able to see whether their answer is correct (highlighted in green) or incorrect (highlighted in red).
 <li>Once an answer selection is made, the other options will be disabled, which stops the user from cheating i.e. deselecting and selecting. 
 <li>Throughout the page the buttons display a clicking sound. 
@@ -51,6 +52,8 @@ Below you will find a colour and text style scheme featuring white, black and or
 <ul>
 <li>Media queries have been placed to ensure that the quiz looks size appropriate in smaller screen sizes and that the question and answer text are readable by the user.
 <li>Whilst the background image features silhouettes of animals, I've decided to keep the image zoomed in as the images looked a bit distracting and too busy, the orange tones looked nice as it is, and complimented the theme of the webpage. 
+<li>The 'Next' button is disabled until the user selects an answer.
+<li>Users may exit the quiz by clicking the refresh button on their browsers, however I intended not to add this button to ensure users are focussed on ending the quiz.
 </tr>
 </table>
 
@@ -61,6 +64,8 @@ Below you will find a colour and text style scheme featuring white, black and or
 <ul>
 <li> Once the user has gotten through all 10 questions, the 'Next button' will disappear and reveal a black box with orange text letting the user know that they've completed the quiz, and display the number of correct answers they've scored. 
 <li>Within the black box, users will have the option to click the 'Play Again' button which will restart the quiz, and shuffle the questions and answers.
+<li>There is no stopping the user from restarting the quiz mid-way by refreshing the page which will automatically restart, however, I expect the user to complete it by the end. 
+<li> All buttons feature a 'click' sound, adding to the interactivity.
 </ul>
 </tr>
 </table>
@@ -76,22 +81,24 @@ Languages used:
 
 Libraries, websites and frameworks:
 
-<Li>**Fontawesome**
+<Li>Fontawesome
 All of the icons for the footer and contacts page were taken from Fontawesome.
-<Li>**Github**
+<Li>Github
 Used frequently to commit, and push codes.
-<Li>**Google Fonts**
+<Li>Google Fonts
 Used to style header and innerHTML throughout the website.
-<li>**Cacoo and Balsamic**
+<li>Cacoo and Balsamic
 Used to create wireframes before coding in to have a visual example.
-<li>**Stackoverflow**
+<li>Stackoverflow
 Used to find existing issues to help fix minor issues with code, any code taken has been referenced. 
-<li>**[Vecteezy](https://www.vecteezy.com/vector-art/)**
+<li>[Vecteezy](https://www.vecteezy.com/vector-art/)
 For the background image, I used this website.
-<li>**[responsivetesttool](https://responsivetesttool.com/)**
+<li>[responsivetesttool](https://responsivetesttool.com/)
 Used to test website on multiple and most common screens 
-<li>**YouTube**
+<li>YouTube
 I've searched for tutorials, any code used has been referenced.
+<li>[codebeautify](https://codebeautify.org/)
+Used the above link to format code
 
 
 # Testing
@@ -101,11 +108,11 @@ I've searched for tutorials, any code used has been referenced.
 - I've gone through the majority of the screens on devtools, and even further on [responsivetesttool](https://responsivetesttool.com/).
 - I've confirmed that the text, especially for questions and answers is readable, and the colour scheme does not clash or cause any issues to the user's ability to smoothly navigate around the page.
 - I've confirmed that the website is easy to navigate for a user, and accurately displays a score at the end of the quiz, and responds quickly indicating the right or wrong answer. The quiz also offers to start again at the end which in turn reshuffles the questions.
+- Code has been placed to disable the next button when an answer has not been selected to prevent user from skipping, and the other options have been disabled when an option has been selected to prevent users from cheating. 
   
 ## Bugs encountered 
   
-- I've confirmed that this project looks good on different browsers such - There were quotation marks around questions, I fixed this by changing the ‘text content’ to ‘innerHTML’. 
-- Fetching API, several attempts to get it right. Took pieces of code from websites provided to get it to work. 
+- There were quotation marks around questions, I fixed this by changing the ‘text content’ to ‘innerHTML’. 
 - Once my website was deployed to GitHub, the game area disappeared. The way I got it to work was to remove “/“ from the script file in HTML.
 - I tried 4 different tutorials from YouTube to get click sounds to work and tried writing the code myself with no avail before copying the code from the link provided in the code library section. 
 - The code I input for the click sound effects was not working for all the buttons, it only worked for the next button. Thanks to my Tutor, Sean who helped me learn that this was a timing issue and that I needed to add an event listener AFTER the buttons have been generated on the page. It worked once that code was placed in a function and called after the cards are generated. 
@@ -116,14 +123,6 @@ I've searched for tutorials, any code used has been referenced.
 
 - On my personal phone, iPhone 14 pro max, when you click on a button once it makes echoeing sound which is unlike anything ive tested anywhere else, issue is left unresolved. 
 
-## User experience summery
-- Easy for users to understand the purpose of the game, as it is immediately evident due to the layout, and the subheading tells the user that there will be 10 questions to answer so that the user is aware of how long it will be for.
-- The 'Next' button is disabled until the user selects an answer.
-- When the answer is selected the user will promptly learn if the answer was incorrect or correct.
-- Also when an answer is selected the other options are disabled to prevent the user from cheating i.e. reselecting and deselecting.
-- There is no stopping the user from restarting the quiz mid-way by refreshing the page which will automatically restart, however, I expect the user to complete it by the end. 
-- All buttons feature a 'click' sound, adding to the interactivity.
-- Once the user has reached the end of the 10 questions, their score will appear on the screen, the 'next' button will disappear and there will be a 'Play Again' button to restart the game and shuffle the questions. 
 
 ## Validation 
 
@@ -144,7 +143,6 @@ I've searched for tutorials, any code used has been referenced.
 - Mouse click: https://www.fesliyanstudios.com/royalty-free-sound-effects-download/mouse-click-2
 - Mouse click how to: https://dev.to/shantanu_jana/how-to-play-sound-on-button-click-in-javascript-3m48
 - Restart button: https://teamtreehouse.com/community/any-one-know-how-to-make-a-restart-button 
-- JS formatter: https://beautifier.io/
 - Code inspired from here but not copied: https://stackoverflow.com/questions/8685107/hiding-a-button-in-javascript
 
 # Deployment
@@ -156,9 +154,5 @@ To deploy my webpage, I took the following steps:
 5) After a few seconds, and refreshing the webpage, I was able to see a link to my website on the top of the webpage.
 6) Using git commit and git push to send my changes to GitHub I was able to see any changes made to the website.
 
-### Deploying the ReadME.md
-1) Commit the file, git add README.md 
-2) git commit -m "added README.md"
-3) git push 
    
 The site was deployed to github and can be found here: https://sabbahs.github.io/animal-quiz/
