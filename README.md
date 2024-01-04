@@ -1,8 +1,8 @@
 <img src=assets/images/quiz-logo.jpg width=100% height=auto alt="logo">
 
 [Animal Quiz](https://sabbahs.github.io/animal-quiz/)
-Desktop 1024 x 768:
-<img src=assets/images/mainscreen.jpg width=100% height=auto alt="Desktop view 1024 x 768">
+
+<img src=assets/images/mainscreen.jpg max-width: 500px; height: 400px; alt="Desktop view 1024 x 768">
 
 # Summary
 Animal quiz is a trivia multiple choice question quiz, which is designed to test users' animal knowledge. The quiz features four choices of answers, which highlight green or red to indicate the correct or incorrect option, and finally a score at the end. 
@@ -56,7 +56,7 @@ Below you will find a colour and text style scheme featuring white, black and or
 
 <table>
 <tr>
-<td><img src=assets/images/end-game.jpg width=100% height=auto alt="End of quiz pop-up message displaying user score on iPad"></td>
+<td><img src=assets/images/ipad-end.jpg width=100% height=auto alt="End of quiz pop-up message displaying user score on iPad"></td>
 <td><img src=assets/images/nesthub-animal.jpg width=100% height=auto alt="End of quiz pop-up message displaying user score on nest hub"></td>
 <ul>
 <li> Once the user has gotten through all 10 questions, the 'Next button' will disappear and reveal a black box with orange text letting the user know that they've completed the quiz, and display the number of correct answers they've scored. 
@@ -116,7 +116,7 @@ I've searched for tutorials, any code used has been referenced.
 
 - On my personal phone, iPhone 14 pro max, when you click on a button once it makes echoeing sound which is unlike anything ive tested anywhere else, issue is left unresolved. 
 
-## User experience
+## User experience summery
 - Easy for users to understand the purpose of the game, as it is immediately evident due to the layout, and the subheading tells the user that there will be 10 questions to answer so that the user is aware of how long it will be for.
 - The 'Next' button is disabled until the user selects an answer.
 - When the answer is selected the user will promptly learn if the answer was incorrect or correct.
