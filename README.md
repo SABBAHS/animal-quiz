@@ -79,7 +79,7 @@ Languages used:
 <lI>CSS
 <li>JavaScript
 
-###Libraries, websites and frameworks:
+Libraries, websites and frameworks:
 
 <Li>Fontawesome
 All of the icons for the footer and contacts page were taken from Fontawesome.
