@@ -97,8 +97,8 @@ For the background image, I used this website.
  Used to test website on multiple and most common screens 
 <li>YouTube
 I've searched for tutorials, any code used has been referenced.
-<li>codebeautify https://codebeautify.org/
- I used the above link to format code
+<li>codebeautify - https://codebeautify.org/
+ I used this link to format code
 
 
 # Testing
