@@ -91,14 +91,14 @@ Used to style header and innerHTML throughout the website.
 Used to create wireframes before coding in to have a visual example.
 <li>Stackoverflow
 Used to find existing issues to help fix minor issues with code, any code taken has been referenced. 
-<li>[Vecteezy](https://www.vecteezy.com/vector-art/)
+<li>Vecteezy - https://www.vecteezy.com/vector-art/
 For the background image, I used this website.
-<li>[responsivetesttool](https://responsivetesttool.com/)
-Used to test website on multiple and most common screens 
+<li>responsive test tool - https://responsivetesttool.com/
+ Used to test website on multiple and most common screens 
 <li>YouTube
 I've searched for tutorials, any code used has been referenced.
-<li>[codebeautify](https://codebeautify.org/)
-Used the above link to format code
+<li>codebeautify https://codebeautify.org/
+ I used the above link to format code
 
 
 # Testing
