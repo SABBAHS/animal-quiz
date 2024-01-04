@@ -81,21 +81,21 @@ Languages used:
 
 Libraries, websites and frameworks:
 
-<Li>Fontawesome
+<Li>Fontawesome - 
 All of the icons for the footer and contacts page were taken from Fontawesome.
-<Li>Github
+<Li>Github - 
 Used frequently to commit, and push codes.
-<Li>Google Fonts
+<Li>Google Fonts - 
 Used to style header and innerHTML throughout the website.
-<li>Cacoo and Balsamic
+<li>Cacoo and Balsamic - 
 Used to create wireframes before coding in to have a visual example.
-<li>Stackoverflow
+<li>Stackoverflow - 
 Used to find existing issues to help fix minor issues with code, any code taken has been referenced. 
 <li>Vecteezy - https://www.vecteezy.com/vector-art/
 For the background image, I used this website.
 <li>responsive test tool - https://responsivetesttool.com/
  Used to test website on multiple and most common screens 
-<li>YouTube
+<li>YouTube - 
 I've searched for tutorials, any code used has been referenced.
 <li>codebeautify - https://codebeautify.org/
  I used this link to format code
