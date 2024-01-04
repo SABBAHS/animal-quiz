@@ -12,7 +12,7 @@
 h3 {
     position: relative;
 	margin-left: auto;
-    top: 20px;
+    top: 25px;
     margin-top: 200px;
 	text-align: center;
 }
@@ -132,6 +132,7 @@ h5 {
 @media only screen and (max-width: 1300px) and (min-width: 1024px) {
 	#quizcontainer {
 		width: 800px;
+		left: 20%;
 	}
 
 	.answer-btn {
@@ -172,7 +173,9 @@ h5 {
 @media only screen and (max-width: 1024px), (max-height:600px) {
 
 	#quizcontainer {
-		width: 600px;
+	    left: 10%;
+        top: 10px;
+
 	}
 
 	.answer-btn {
@@ -213,7 +216,7 @@ h5 {
 	}
 
 	#options {
-		padding-left: 15%;
+		padding-left: 25%;
 	}
 
 	.message {
@@ -295,11 +298,11 @@ h5 {
     .answer-btn {
 	    color: black;
 	    background-color: whitesmoke;
-	    border: 1px solid black;
+	    border: none;
 }
 	#quizcontainer {
 		top: 40px;
-		margin-left: 5%;
+		margin-right: 20%;
 	}
 
 	h1 {
@@ -322,11 +325,11 @@ h5 {
   
 
 /*mobile iphone 15 pro max / standard and below */
-@media only screen and (max-width: 430px) and (min-width: 375px) {
+@media only screen and (max-width: 430px) and (min-width: 390px) {
 
 	h1 {
 		font-size: 40px;
-		left: 10%;
+		left: 5%;
 		top: 20px;
 		font-family: 'Gasoek One', sans-serif;
 		font-weight: 400;
@@ -339,9 +342,13 @@ h5 {
 
 	}
 
+	.answer-btn {
+		border: none;
+	}
+
 	#quizcontainer {
 		background: none;
-		width: 100px;
+		width: 300px;
 		right: 100%;
 	}
 
@@ -349,7 +356,6 @@ h5 {
 		font-size: 20px;
 		font-family: 'Unbounded', sans-serif;
 		width: 350px;
-		padding-left: 10px;
 		text-align: center;
 		padding-bottom: 10px;
 	}
@@ -380,22 +386,26 @@ h5 {
 		width: 140px;
 		border: black;
 	}
+
+	#options {
+		padding-left: 2%;
+	}
 }
 
-/*375 px width*/
+/*390 px width*/
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 390px) and (min-width: 280px){
 
 	h1 {
 		top: 40px;
-		left: 150px;
+		left: 15%;
 		width: 100%;
 	}
 
 	#quizcontainer {
-		top: 130px;
-		right: 100px;
-		width: 500px;
+		top: 50px;
+		width: 350px;
+		left: 10%;
 	}
 
 	.quiz {
@@ -404,25 +414,35 @@ h5 {
 	}
 	
     .next-btn {
-		bottom: 5%;
+		left: 30%;
+		bottom: 10%;
+	}
+
+	.answer-btn {
+		width: 300px;
+		font-size: large;
+
 	}
     h5 {
 		color: white;
-		left: 20%;
+		left: 10%;
 	}
 	h3 {
-		left: 40%;
+		left: 10%;
 	}
 	h2 {
-		margin-left: 10%;
+		margin-left: 2%;
+		font-size: large;
 	}
 
-	.next-btn{
-		left: 55%;
-	}
     .message {
 	margin: 0 5%;
     border-radius: 10px;
-    width: 500px;
+	width: 350px;
 	}
+
+	#options {
+		padding-left: 2%;
+	}
+
 }
