@@ -81,8 +81,6 @@ Languages used:
 
 Libraries, websites and frameworks:
 
-<Li>Fontawesome - 
-All of the icons for the footer and contacts page were taken from Fontawesome.
 <Li>Github - 
 Used frequently to commit, and push codes.
 <Li>Google Fonts - 
