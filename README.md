@@ -5,7 +5,7 @@
 <img src=assets/images/mainscreen.jpg max-width= 500px; height= 400px; alt="Desktop view 1024 x 768">
 
 # Summary
-Animal quiz is a trivia multiple choice question quiz, which is designed to test users' animal knowledge. The quiz features four choices of answers, which highlight green or red to indicate the correct or incorrect option, and finally a score at the end. The target audience is age 10+ with the ability to read and understand questions in relation to the animal subject.
+Animal quiz is a trivia multiple choice question quiz, which is designed to test users' animal knowledge. The quiz features four choices of answers, which highlight green or red to indicate the correct or incorrect option, and finally a score at the end. The target audience is age 9+ with the ability to read and understand questions in relation to the animal subject.
 The website is brightly styled, features a consistent theme and is clear for users to read and understand. 
 <br>
 
